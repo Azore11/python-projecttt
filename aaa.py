@@ -5,7 +5,7 @@ two_count=0
 three_count=0
 four_count=0
 five_count=0
-for row in sheet.iter_rows(min_row=14, min_col=2, max_row=26, max_col=48):
+for row in sheet.iter_rows(min_row=11, min_col=2, max_row=26, max_col=48):
     for cell in row:
         for i in cell.value:
             two = (cell.value).find('2')
